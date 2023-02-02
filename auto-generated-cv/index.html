@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div class="left">
+            <form>
+                <label>Name:</label> <input type="text" size="15" placeholder="name"><br>
+                <label>Email:</label> <input type="text" size="15" placeholder="Email"><br>
+                <label>Phone:</label> <input type="text" size="15" placeholder="phone"><br>
+                <label>Github:</label> <input type="text" size="15" placeholder="github"><br>
+                <label>Linkedin:</label> <input type="text" size="15" placeholder="linkedin"><br>
+
+                <fieldset>
+                    <legend>Education</legend>
+                    <label>Degree:</label> <input type="text" size="15" placeholder="Degree"><br>
+                    <label>College:</label> <input type="text" size="15" placeholder="College"><br>
+                    <label>Starting Year:</label> <input type="text" size="15" placeholder="Starting Year"><br>
+                    <label>Passing Year:</label> <input type="text" size="15" placeholder="Passing Year"><br>
+                    <label>CGPA:</label> <input type="text" size="15" placeholder="CGPA"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label>skills:</label> <input type="text" size="15" placeholder="skills eg. HTML ,CSS"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Projects</legend>
+                    <label>Project:</label> <input type="text" size="15" placeholder="linkedin"><br>
+                    <label>Description:</label> <input type="text" size="15" placeholder="Write in HTML format"><br>
+                    <label>Link:</label> <input type="text" size="15" placeholder="link"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Experience</legend>
+                    <label>Company</label> <input type="text" size="15" placeholder="Company"><br>
+                    <label>Designation:</label> <input type="text" size="15" placeholder="Designation"><br>
+                    <label>Duration</label> <input type="text" size="15" placeholder="Duration"><br>
+                    <label>Description:</label> <input type="text" size="15" placeholder="Write in HTML format"><br>
+                </fieldset>
+                <button type="submit" class="btn">submit</button>
+                <button type="reset" class="btn">reset</button>
+                <button class="btn" onclick="handleLeft()"><<</button>
+            </form>
+        </div>
+        <div class="right">
+            <div class="block1">
+                <!-- Name -->
+                <!--Email , Phone , Github , Linkedin  -->
+            </div>
+            <div class="block2">
+                <h2>Education</h2>
+            </div>
+            <div class="block3">
+            </div>
+            <div class="block4">
+                <h2>Project</h2>
+            </div>
+            <div class="block5">
+                <h2>Experience</h2>
+            </div>
+            <button class="btn print" onclick="handlePrint()">Print</button>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
